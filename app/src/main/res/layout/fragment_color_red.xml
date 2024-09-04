@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.colors.ColorRedFragment">
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutToolbarRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_toolbar">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:navigationIcon="@drawable/ic_left">
+
+                <TextView
+                    style="@style/HomeToolBarTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/text_title_toolbar_red_fragment"/>
+
+            </com.google.android.material.appbar.MaterialToolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutElementsRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayoutToolbarRed">
+
+        <TextView
+            android:id="@+id/tvBloodNight"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/blood_night"
+            android:text="@string/text_blood_night"/>
+
+        <TextView
+            android:id="@+id/tvDeepRed"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/deep_red"
+            android:text="@string/text_deep_red"/>
+
+        <TextView
+            android:id="@+id/tvFirebrick"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/firebrick"
+            android:text="@string/text_firebrick"/>
+
+        <TextView
+            android:id="@+id/tvTomatoSauce"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/tomato_sauce"
+            android:text="@string/text_tomato_sauce"/>
+
+        <TextView
+            android:id="@+id/tvGrapefruitRed"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/grapefruit_red"
+            android:text="@string/text_grapefruit_red"/>
+
+        <TextView
+            android:id="@+id/tvCherryRed"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/cherry_red"
+            android:text="@string/text_cherry_red"/>
+
+        <TextView
+            android:id="@+id/tvEnglishRed"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/english_red"
+            android:text="@string/text_english_red"/>
+
+        <TextView
+            android:id="@+id/tvIndianRed"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/indian_red"
+            android:text="@string/text_indian_red"/>
+
+        <TextView
+            android:id="@+id/tvValentineRed"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/valentine_red"
+            android:text="@string/text_valentine_red"/>
+
+        <TextView
+            android:id="@+id/tvImperialRed"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/imperial_red"
+            android:text="@string/text_imperial_red"/>
+
+        <TextView
+            android:id="@+id/tvRedGold"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/red_gold"
+            android:text="@string/text_red_gold"/>
+
+        <TextView
+            android:id="@+id/tvRedFox"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/red_fox"
+            android:text="@string/text_red_fox"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

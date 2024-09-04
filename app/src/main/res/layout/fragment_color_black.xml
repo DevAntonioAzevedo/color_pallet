@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.colors.ColorBlackFragment">
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutToolbarBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_toolbar">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:navigationIcon="@drawable/ic_left">
+
+                <TextView
+                    style="@style/HomeToolBarTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/text_title_toolbar_black_fragment" />
+
+            </com.google.android.material.appbar.MaterialToolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutElementsBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayoutToolbarBlack">
+
+        <TextView
+            android:id="@+id/tvBlackDenim"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/black_denim"
+            android:text="@string/text_black_denim"/>
+
+        <TextView
+            android:id="@+id/tvBlackRock"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/black_rock"
+            android:text="@string/text_black_rock"/>
+
+        <TextView
+            android:id="@+id/tvCoolBlack"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/cool_black"
+            android:text="@string/text_cool_black"/>
+
+        <TextView
+            android:id="@+id/tvSootBlack"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/soot_black"
+            android:text="@string/text_soot_black"/>
+
+        <TextView
+            android:id="@+id/tvGothicGrape"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/gothic_grape"
+            android:text="@string/text_gothic_grape"/>
+
+        <TextView
+            android:id="@+id/tvBlackRussian"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/black_russian"
+            android:text="@string/text_black_russian"/>
+
+        <TextView
+            android:id="@+id/tvGraphiteBlack"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/graphite_black"
+            android:text="@string/text_graphite_black"/>
+
+        <TextView
+            android:id="@+id/tvEletricBlack"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/eletric_black"
+            android:text="@string/text_eletric_black"/>
+
+        <TextView
+            android:id="@+id/tvBlackGray"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/black_gray"
+            android:text="@string/text_black_gray"/>
+
+        <TextView
+            android:id="@+id/tvOffBlack"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/off_black"
+            android:text="@string/text_off_black"/>
+
+        <TextView
+            android:id="@+id/tvIronBlack"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/iron_black"
+            android:text="@string/text_iron_black"/>
+
+        <TextView
+            android:id="@+id/tvMidnight"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/midnight"
+            android:text="@string/text_midnight"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

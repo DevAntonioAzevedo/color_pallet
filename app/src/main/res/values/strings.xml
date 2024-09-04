@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">Color Pallet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Splash Fragment -->
+    <string name="text_title_splash_fragment">Paleta de Cores</string>
+    <string name="sub_title_splash_fragment">By Antônio Azevedo</string>
+
+    <!-- Home Fragment -->
+    <string name="text_toolbar_home_fragment">Paleta de Cores</string>
+    <string name="text_title_home_fragment">Escolha a cor desejada para consulta.</string>
+    <string name="btnBlack_home_fragment">Preto</string>
+    <string name="btnGray_home_fragment">Cinza</string>
+    <string name="btnBlue_home_fragment">Azul</string>
+    <string name="btnRed_home_fragment">Vermelho</string>
+    <string name="btnYellow_home_fragment">Amarelo</string>
+    <string name="btnGreen_home_fragment">Verde</string>
+    <string name="btnPurple_home_fragment">Roxo</string>
+    <string name="btnOrange_home_fragment">Laranja</string>
+    <string name="btnPink_home_fragment">Rosa</string>
+    <string name="btnBrown_home_fragment">Marrom</string>
+
+    <!-- ToolBar Black Fragment-->
+    <string name="text_title_toolbar_black_fragment">Preto</string>
+
+    <!-- Black Colors Generic Fragment -->
+    <string name="text_black_denim">Black Denim - #191C27</string>
+    <string name="text_black_rock">Black Rock - #010127</string>
+    <string name="text_cool_black">Cool Black - #151922</string>
+    <string name="text_black_russian">Black Russian - #24252B</string>
+    <string name="text_graphite_black">Graphite Black - #27292B</string>
+    <string name="text_iron_black">Iron Black - #343432</string>
+    <string name="text_off_black">Off Black - #313639</string>
+    <string name="text_eletric_black">Eletric Black - #313639</string>
+    <string name="text_gothic_grape">Gothic Grape - #313639</string>
+    <string name="text_soot_black">Soot Black - #160D08</string>
+    <string name="text_midnight">Midnight - #2B1B17</string>
+    <string name="text_black_gray">Black Gray - #303234</string>
+
+    <!-- ToolBar Gray Fragment-->
+    <string name="text_title_toolbar_gray_fragment">Cinza</string>
+
+    <!-- Gray Colors Generic Fragment -->
+    <string name="text_gun_metal_gray">Gun Metal Gray - #2A3439</string>
+    <string name="text_gun_smoke_gray">Gun Smoke Gray - #8A868E</string>
+    <string name="text_storm_cloud_gray">Storm Cloud Gray - #4F666A</string>
+    <string name="text_slate_gray">Slate Gray - #657383</string>
+    <string name="text_cadet_gray">Cadet Gray - #91A3B0</string>
+    <string name="text_oxford_gray">Oxford Gray - #8391A1</string>
+    <string name="text_chrome_gray">Chrome Gray - #DBE2E9</string>
+    <string name="text_dim_gray">Dim Gray - #696969</string>
+    <string name="text_spanish_gray">Spanish Gray - #989898</string>
+    <string name="text_gainsboro">Gainsboro - #DCDCDC</string>
+    <string name="text_lavender_gray">Lavender Gray - #C4C3D0</string>
+    <string name="text_gentle_gray">Gentle Gray - #DADADA</string>
+
+    <!-- ToolBar Yellow Fragment-->
+    <string name="text_title_toolbar_yellow_fragment">Amarelo</string>
+
+    <!-- Yellow Colors Generic Fragment -->
+    <string name="text_bronze_yellow">Bronze Yellow - #737000</string>
+    <string name="text_camouflage_yellow">Camouflage Yellow - #978942</string>
+    <string name="text_old_yellow">Old Yellow - #C8AF55</string>
+    <string name="text_oyster_yellow">Oyster Yellow - #DCD7A0</string>
+    <string name="text_british_yellow">British Yellow - #EDC001</string>
+    <string name="text_sunflower">Sunflower - #FFDA03</string>
+    <string name="text_banana_yellow">Banana Yellow - #FFE135</string>
+    <string name="text_dijon_yellow">Dijon Yellow - #C49102</string>
+    <string name="text_goldenrod">Goldenrod - #DAA520</string>
+    <string name="text_trombone">Trombone - #D2B55B</string>
+    <string name="text_parmesan">Parmesan - #FDE992</string>
+    <string name="text_buttermilk">Buttermilk - #FDEFB2</string>
+
+    <!-- ToolBar Blue Fragment-->
+    <string name="text_title_toolbar_blue_fragment">Azul</string>
+
+    <!-- Blue Colors Generic Fragment -->
+    <string name="text_night_blue">Night Blue - #151B54</string>
+    <string name="text_dodger_blue">Dodger Blue - #1E90FF</string>
+    <string name="text_day_sky_blue">Day Sky Blue - #82CAFF</string>
+    <string name="text_blueberry_blue">Blueberry Blue - #0041C2</string>
+    <string name="text_royal_blue">Royal Blue - #4169E1</string>
+    <string name="text_cornflower_blue">Cornflower Blue - #6495ED</string>
+    <string name="text_blue_jay">Blue Jay - #2B547E</string>
+    <string name="text_aure_blue">Aure Blue - #4863A0</string>
+    <string name="text_light_purple_blue">Light Purple Blue - #728FCE</string>
+    <string name="text_deep_sea_blue">Deep Sea Blue - #123456</string>
+    <string name="text_dark_blue_gray">Dark Blue Gray - #29465B</string>
+    <string name="text_steel_blue">Steel Blue - #4682B4</string>
+
+    <!-- ToolBar Red Fragment-->
+    <string name="text_title_toolbar_red_fragment">Vermelho</string>
+
+    <!-- Red Colors Generic Fragment -->
+    <string name="text_blood_night">Blood Night - #551606</string>
+    <string name="text_deep_red">Deep Red - #800517</string>
+    <string name="text_firebrick">Firebrick - #B22222</string>
+    <string name="text_imperial_red">Imperial Red - #ED2939</string>
+    <string name="text_tomato_sauce">Tomato Sauce - #B21807</string>
+    <string name="text_english_red">English Red - #AB4B52</string>
+    <string name="text_red_gold">Red Gold - #EB5406</string>
+    <string name="text_grapefruit_red">Grapefruit Red - #DC381F</string>
+    <string name="text_red_fox">Red Fox - #C35817</string>
+    <string name="text_valentine_red">Valentine Red - #E55451</string>
+    <string name="text_indian_red">Indian Red - #CD5C5C</string>
+    <string name="text_cherry_red">Cherry Red - #C24641</string>
+
+    <!-- ToolBar Green Fragment-->
+    <string name="text_title_toolbar_green_fragment">Verde</string>
+
+    <!-- Green Colors Generic Fragment -->
+    <string name="text_dark_jungle_green">Dark Jungle Green - #1A2421</string>
+    <string name="text_forest_green">Forest Green - #0B6623</string>
+    <string name="text_hunter_green">Hunter Green - #3f704D</string>
+    <string name="text_camouflage_green">Camouflage Green - #78866B</string>
+    <string name="text_army_green">Army Green - #4B5320</string>
+    <string name="text_dark_moss_green">Dark Moss Green - #4A5D23</string>
+    <string name="text_olive_green">Olive Green - #708238</string>
+    <string name="text_avocado_green">Avocado Green - #568203</string>
+    <string name="text_chateau_green">Chateau Green - #48A860</string>
+    <string name="text_mantis_green">Mantis Green - #74C365</string>
+    <string name="text_sea_green">Sea Green - #2E8B57</string>
+    <string name="text_mint_green">Mint Green - #98FB98</string>
+
+    <!-- ToolBar Purple Fragment-->
+    <string name="text_title_toolbar_purple_fragment">Roxo</string>
+
+    <!-- Purple Colors Generic Fragment -->
+    <string name="text_dark_purple">Dark Purple - #301934</string>
+    <string name="text_matte_purple">Matte Purple - #392A48</string>
+    <string name="text_ultra_violet">Ultra Violet - #645394</string>
+    <string name="text_chinese_violet">Chinese Violet - #856088</string>
+    <string name="text_indigo">Indigo - #4B0082</string>
+    <string name="text_rebecca_purple">Rebecca Purple - #663399</string>
+    <string name="text_medium_purple">Medium Purple - #8968DC</string>
+    <string name="text_luxury_purple">Luxury Purple - #743089</string>
+    <string name="text_sunset_purple">Sunset Purple - #A865B5</string>
+    <string name="text_early_bird">Early Bird - #CEA2FD</string>
+    <string name="text_strong_purple">Strong Purple - #875692</string>
+    <string name="text_blue_lilac">Blue Lilac - #7B679A</string>
+
+    <!-- ToolBar Orange Fragment-->
+    <string name="text_title_toolbar_orange_fragment">Laranja</string>
+
+    <!-- Orange Colors Generic Fragment -->
+    <string name="text_burnet_amber">Burnet Amber - #8A3324</string>
+    <string name="text_ginger">Ginger - #B06500</string>
+    <string name="text_bronze">Bronze - #CD7F32</string>
+    <string name="text_rustic_orange">Rustic Orange - #D78C3D</string>
+    <string name="text_hot_orange">Hot Orange - #FF6E00</string>
+    <string name="text_pepper_orange">Pepper Orange - #E77D22</string>
+    <string name="text_jasper_orange">Jasper Orange - #E89149</string>
+    <string name="text_marmalade">Marmalade - #D16002</string>
+    <string name="text_carrot">Carrot - #ED9121</string>
+    <string name="text_safflower_orange">Safflower Orange - #FDAE44</string>
+    <string name="text_calm_orange">Calm Orange - #FAB972</string>
+    <string name="text_aesthetic_orange">Aesthetic Orange - #F4AB6A</string>
+
+    <!-- ToolBar Pink Fragment-->
+    <string name="text_title_toolbar_pink_fragment">Rosa</string>
+
+    <!-- Pink Colors Generic Fragment -->
+    <string name="text_rouge">Rouge - #A94064</string>
+    <string name="text_mulberry">Mulberry - #C54B8C</string>
+    <string name="text_barbie_pink">Barbie Pink - #E0218A</string>
+    <string name="text_shocking_pink">Shocking Pink - #FC0FC0</string>
+    <string name="text_hot_pink">Hot Pink - #FF69B4</string>
+    <string name="text_magenta">Magenta - #FF00FF</string>
+    <string name="text_light_deep_pink">Light Deep Pink - #FF5CCD</string>
+    <string name="text_neon_pink">Neon Pink - #FF6EC7</string>
+    <string name="text_wild_orchid">Wild Orchid - #D470A2</string>
+    <string name="text_fandango">Fandango - #B53389</string>
+    <string name="text_lavender_rose">Lavender Rose - #FBA0E3</string>
+    <string name="text_fuchsia">Fuchsia - #C154C1</string>
+
+    <!-- ToolBar Brown Fragment-->
+    <string name="text_title_toolbar_brown_fragment">Marrom</string>
+
+    <!-- Brown Colors Generic Fragment -->
+    <string name="text_deep_brown">Deep Brown - #410200</string>
+    <string name="text_bistre">Bistre - #3D2B1F</string>
+    <string name="text_brown_coffee">Brown Coffee - #4A2C4A</string>
+    <string name="text_brown_stone">Brown Stone - #593C39</string>
+    <string name="text_cafe_noir">Café Noir - #4B3621</string>
+    <string name="text_brown_bear">Brown Bear - #7F6244</string>
+    <string name="text_chocolate_brown">Chocolate Brown - #7B3F00</string>
+    <string name="text_medium_brown">Medium Brown - #7F5112</string>
+    <string name="text_golden_brown">Golden Brown - #996515</string>
+    <string name="text_brown_beige">Brown Beige - #AF804F</string>
+    <string name="text_dull_brown">Dull Brown - #876E4B</string>
+    <string name="text_light_brown">Light Brown - #C4A484</string>
+
+
+    <!-- About Fragment -->
+    <string name="text_title_about_fragment">Sobre o aplicativo</string>
+    <string name="text_about_fragment">O aplicativo Paleta de Cores foi desenvolvido apenas com intuito de aprendizagem e de facilitar
+                                        na busca de cores, para serem utilizadas em outros aplicativos.\n \n
+                                        Sendo meu primeiro aplicativo construído dentro do Android Studio, utilizando a linguagem Kotlin,
+                                        no formato xml.\n  \n
+                                        Desenvolvido por Antônio Azevedo, contato pelo: antonio_azevedo@hotmail.com.br</string>
+
+    <!-- Empty -->
+
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.colors.ColorBrownFragment">
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutToolbarBrown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_toolbar">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:navigationIcon="@drawable/ic_left">
+
+                <TextView
+                    style="@style/HomeToolBarTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/text_title_toolbar_brown_fragment" />
+
+            </com.google.android.material.appbar.MaterialToolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutElementsBrown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayoutToolbarBrown">
+
+        <TextView
+            android:id="@+id/tvDeepBrown"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/deep_brown"
+            android:text="@string/text_deep_brown"/>
+
+        <TextView
+            android:id="@+id/tvBrownCoffee"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/brown_coffee"
+            android:text="@string/text_brown_coffee"/>
+
+        <TextView
+            android:id="@+id/tvBrownStone"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/brown_stone"
+            android:text="@string/text_brown_stone"/>
+
+        <TextView
+            android:id="@+id/tvBistre"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/bistre"
+            android:text="@string/text_bistre"/>
+
+        <TextView
+            android:id="@+id/tvCafeNoir"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/cafe_noir"
+            android:text="@string/text_cafe_noir"/>
+
+        <TextView
+            android:id="@+id/tvBrownBear"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/brown_bear"
+            android:text="@string/text_brown_bear"/>
+
+        <TextView
+            android:id="@+id/tvDullBrown"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/dull_brown"
+            android:text="@string/text_dull_brown"/>
+
+        <TextView
+            android:id="@+id/tvChocolateBrown"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/chocolate_brown"
+            android:text="@string/text_chocolate_brown"/>
+
+        <TextView
+            android:id="@+id/tvMediumBrown"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/medium_brown"
+            android:text="@string/text_medium_brown"/>
+
+        <TextView
+            android:id="@+id/tvGoldenBrown"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/golden_brown"
+            android:text="@string/text_golden_brown"/>
+
+        <TextView
+            android:id="@+id/tvBrownBeige"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/brown_beige"
+            android:text="@string/text_brown_beige"/>
+
+        <TextView
+            android:id="@+id/tvLightBrown"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/light_brown"
+            android:text="@string/text_light_brown"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

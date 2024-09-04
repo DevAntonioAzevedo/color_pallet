@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Color Default -->
+    <color name="color_default">#FFB997</color>
+
+    <!-- Color ToolBar -->
+    <color name="color_toolbar">#F8D3C1</color>
+
+    <!-- Home Colors -->
+    <color name="blue">#012EFF</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFE500</color>
+    <color name="gray">#91A3B0</color>
+    <color name="green">#55FF00</color>
+    <color name="purple">#7B4FF6</color>
+    <color name="orange">#FF5722</color>
+    <color name="pink">#E222FF</color>
+    <color name="brown">#3D2B1F</color>
+
+    <!-- Black Colors -->
+    <color name="black_denim">#191C27</color>
+    <color name="black_rock">#010127</color>
+    <color name="cool_black">#151922</color>
+    <color name="black_russian">#24252B</color>
+    <color name="graphite_black">#27292B</color>
+    <color name="iron_black">#343432</color>
+    <color name="off_black">#313639</color>
+    <color name="eletric_black">#292929</color>
+    <color name="gothic_grape">#120321</color>
+    <color name="soot_black">#160D08</color>
+    <color name="midnight">#2B1B17</color>
+    <color name="black_gray">#303234</color>
+
+    <!-- Gray Colors -->
+    <color name="gun_metal_gray">#2A3439</color>
+    <color name="gun_smoke_gray">#8A868E</color>
+    <color name="storm_cloud_gray">#4F666A</color>
+    <color name="slate_gray">#657383</color>
+    <color name="cadet_gray">#91A3B0</color>
+    <color name="oxford_gray">#8391A1</color>
+    <color name="chrome_gray">#DBE2E9</color>
+    <color name="dim_gray">#696969</color>
+    <color name="spanish_gray">#989898</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="lavender_gray">#C4C3D0</color>
+    <color name="gentle_gray">#DADADA</color>
+
+    <!-- Yellow Colors -->
+    <color name="bronze_yellow">#737000</color>
+    <color name="camouflage_yellow">#978942</color>
+    <color name="old_yellow">#C8AF55</color>
+    <color name="oyster_yellow">#DCD7A0</color>
+    <color name="british_yellow">#EDC001</color>
+    <color name="sunflower">#FFDA03</color>
+    <color name="banana_yellow">#FFE135</color>
+    <color name="dijon_yellow">#C49102</color>
+    <color name="goldenrod">#DAA520</color>
+    <color name="trombone">#D2B55B</color>
+    <color name="parmesan">#FDE992</color>
+    <color name="buttermilk">#FDEFB2</color>
+
+    <!-- Blue Colors -->
+    <color name="night_blue">#151B54</color>
+    <color name="dodger_blue">#1E90FF</color>
+    <color name="day_sky_blue">#82CAFF</color>
+    <color name="blueberry_blue">#0041C2</color>
+    <color name="royal_blue">#4169E1</color>
+    <color name="cornflower_blue">#6495ED</color>
+    <color name="blue_jay">#2B547E</color>
+    <color name="aure_blue">#4863A0</color>
+    <color name="light_purple_blue">#728FCE</color>
+    <color name="deep_sea_blue">#123456</color>
+    <color name="dark_blue_gray">#29465B</color>
+    <color name="steel_blue">#4682B4</color>
+
+    <!-- Red Colors -->
+    <color name="blood_night">#551606</color>
+    <color name="deep_red">#800517</color>
+    <color name="firebrick">#B22222</color>
+    <color name="imperial_red">#ED2939</color>
+    <color name="tomato_sauce">#B21807</color>
+    <color name="english_red">#AB4B52</color>
+    <color name="red_gold">#EB5406</color>
+    <color name="grapefruit_red">#DC381F</color>
+    <color name="red_fox">#C35817</color>
+    <color name="valentine_red">#E55451</color>
+    <color name="indian_red">#CD5C5C</color>
+    <color name="cherry_red">#C24641</color>
+
+    <!-- Green Colors -->
+    <color name="dark_jungle_green">#1A2421</color>
+    <color name="forest_green">#0B6623</color>
+    <color name="hunter_green">#3f704D</color>
+    <color name="camouflage_green">#78866B</color>
+    <color name="army_green">#4B5320</color>
+    <color name="dark_moss_green">#4A5D23</color>
+    <color name="olive_green">#708238</color>
+    <color name="avocado_green">#568203</color>
+    <color name="chateau_green">#48A860</color>
+    <color name="mantis_green">#74C365</color>
+    <color name="sea_green">#2E8B57</color>
+    <color name="mint_green">#98FB98</color>
+
+    <!-- Purple Colors -->
+    <color name="dark_purple">#301934</color>
+    <color name="matte_purple">#392A48</color>
+    <color name="ultra_violet">#645394</color>
+    <color name="chinese_violet">#856088</color>
+    <color name="indigo">#4B0082</color>
+    <color name="rebecca_purple">#663399</color>
+    <color name="medium_purple">#8968DC</color>
+    <color name="luxury_purple">#743089</color>
+    <color name="sunset_purple">#A865B5</color>
+    <color name="early_bird">#CEA2FD</color>
+    <color name="strong_purple">#875692</color>
+    <color name="blue_lilac">#7B679A</color>
+
+    <!-- Orange Colors -->
+    <color name="burnet_amber">#8A3324</color>
+    <color name="ginger">#B06500</color>
+    <color name="bronze">#CD7F32</color>
+    <color name="rustic_orange">#D78C3D</color>
+    <color name="hot_orange">#FF6E00</color>
+    <color name="pepper_orange">#E77D22</color>
+    <color name="jasper_orange">#E89149</color>
+    <color name="marmalade">#D16002</color>
+    <color name="carrot">#ED9121</color>
+    <color name="safflower_orange">#FDAE44</color>
+    <color name="calm_orange">#FAB972</color>
+    <color name="aesthetic_orange">#F4AB6A</color>
+
+    <!-- Pink Colors -->
+    <color name="rouge">#A94064</color>
+    <color name="mulberry">#C54B8C</color>
+    <color name="barbie_pink">#E0218A</color>
+    <color name="shocking_pink">#FC0FC0</color>
+    <color name="hot_pink">#FF69B4</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="light_deep_pink">#FF5CCD</color>
+    <color name="neon_pink">#FF6EC7</color>
+    <color name="wild_orchid">#D470A2</color>
+    <color name="fandango">#B53389</color>
+    <color name="lavender_rose">#FBA0E3</color>
+    <color name="fuchsia">#C154C1</color>
+
+    <!-- Brown Colors -->
+    <color name="deep_brown">#410200</color>
+    <color name="bistre">#3D2B1F</color>
+    <color name="brown_coffee">#4A2C2A</color>
+    <color name="brown_stone">#593C39</color>
+    <color name="cafe_noir">#4B3621</color>
+    <color name="brown_bear">#7F6244</color>
+    <color name="chocolate_brown">#7B3F00</color>
+    <color name="medium_brown">#7F5112</color>
+    <color name="golden_brown">#996515</color>
+    <color name="brown_beige">#AF804F</color>
+    <color name="dull_brown">#876E4B</color>
+    <color name="light_brown">#C4A484</color>
+
+    <!-- Generic -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

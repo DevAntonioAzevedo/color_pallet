@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.colors.ColorYellowFragment">
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutToolbarYellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_toolbar">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:navigationIcon="@drawable/ic_left">
+
+                <TextView
+                    style="@style/HomeToolBarTheme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/text_title_toolbar_yellow_fragment"/>
+
+            </com.google.android.material.appbar.MaterialToolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutElementsYellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayoutToolbarYellow">
+
+        <TextView
+            android:id="@+id/tvBronzeYellow"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/bronze_yellow"
+            android:text="@string/text_bronze_yellow"/>
+
+        <TextView
+            android:id="@+id/tvCamouflageYellow"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/camouflage_yellow"
+            android:text="@string/text_camouflage_yellow"/>
+
+        <TextView
+            android:id="@+id/tvDijonYellow"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/dijon_yellow"
+            android:text="@string/text_dijon_yellow"/>
+
+        <TextView
+            android:id="@+id/tvGoldenrod"
+            style="@style/ColorsWhiteGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/goldenrod"
+            android:text="@string/text_goldenrod"/>
+
+        <TextView
+            android:id="@+id/tvBritishYellow"
+            style="@style/ColorsBlackGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/british_yellow"
+            android:text="@string/text_british_yellow"/>
+
+        <TextView
+            android:id="@+id/tvSunflower"
+            style="@style/ColorsBlackGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/sunflower"
+            android:text="@string/text_sunflower"/>
+
+        <TextView
+            android:id="@+id/tvBananaYellow"
+            style="@style/ColorsBlackGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/banana_yellow"
+            android:text="@string/text_banana_yellow"/>
+
+        <TextView
+            android:id="@+id/tvOldYellow"
+            style="@style/ColorsBlackGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/old_yellow"
+            android:text="@string/text_old_yellow"/>
+
+        <TextView
+            android:id="@+id/tvTrombone"
+            style="@style/ColorsBlackGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/trombone"
+            android:text="@string/text_trombone"/>
+
+        <TextView
+            android:id="@+id/tvOysterYellow"
+            style="@style/ColorsBlackGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/oyster_yellow"
+            android:text="@string/text_oyster_yellow"/>
+
+        <TextView
+            android:id="@+id/tvButtermilk"
+            style="@style/ColorsBlackGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/buttermilk"
+            android:text="@string/text_buttermilk"/>
+
+        <TextView
+            android:id="@+id/tvParmeson"
+            style="@style/ColorsBlackGenericTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/parmesan"
+            android:text="@string/text_parmesan"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ColorPallet" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Color Default -->
+        <item name="android:windowBackground">@color/color_default</item>
+
+        <!-- Color Default Status Bar-->
+        <item name="android:statusBarColor">#D16002</item>
+    </style>
+
+    <!-- Style Home ToolBar Fragment -->
+    <style name="HomeToolBarTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.ColorPallet" parent="Base.Theme.ColorPallet" />
+</resources>
